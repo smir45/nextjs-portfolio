@@ -4,29 +4,31 @@ import styles from "../styles/navbar.module.scss";
 import { FaBeer } from 'react-icons/fa';
 
 const NavBar = () => {
+
   return (
     <main className={styles.bucket}>
         
       <nav className={styles.nav}>
-        <ul>
+         <div className={styles.img}></div>
+        <ul className={styles.ul}>
           <li className={styles.list}>
             <Link href="/">
-              <a>Home</a>
+              <a className={styles.links1}>Home</a>
             </Link>
           </li>
           <li className={styles.list}>
             <Link href="/about">
-              <a>About</a>
+              <a className={styles.links2}>About</a>
             </Link>
           </li>
           <li className={styles.list}>
             <Link href="/skills">
-              <a>Skills</a>
+              <a className={styles.links3}>Skills</a>
             </Link>
           </li>
           <li className={styles.list}>
-            <Link href="/skills">
-              <a>Contact</a>
+            <Link href="/contact">
+              <a className={styles.links4}>Contact</a>
             </Link>
           </li>
         </ul>

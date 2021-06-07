@@ -1,13 +1,85 @@
+$primary-color: #2a1a1f;
+$secondary-color: #453750;
+$third-color: #73648a;
+$text-color: #a393bf;
+$secondary-text-color: #73648a;
+
 .list {
-    list-style: none;
+  list-style: none;
+}
+.ul {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.nav {
+  height: 100vh;
+  background-color: $primary-color;
+  color: $text-color;
+  font-size: 1.5em;
+  --order: 0;
+  font-weight: 300;
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order) * 100ms);
+}
+.bucket {
+  display: flex;
+}
+.links1 {
+  float: right;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  --order: 1;
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
+}
+.links2 {
+  float: right;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  --order: 2;
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
 }
 
-.nav{
-    border: 1px solid;
-    height: 100vh;
-    
+.links3 {
+  float: right;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  --order: 3;
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
+}
+.links4 {
+  float: right;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  --order: 4;
+  animation: dropIn 1s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
 }
 
-.bucket{
-    display: flex;
+@keyframes dropIn {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+.img{
+    border: 1px solid #FFF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px 15px -15px 15px;
 }
