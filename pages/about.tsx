@@ -1,13 +1,13 @@
-const Skills = () => {
-    return (
+const About = () => {
+    return(
         <main>
             <header>
                 <head>
-                    <title>Skills | Samir Mishra</title>
+                    <title>About | Samir Mishra</title>
                 </head>
             </header>
         </main>
     )
 }
 
-export default Skills
+export default About

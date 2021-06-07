@@ -10,7 +10,7 @@ const Home = () => {
             <section>
                 <NavBar />
             </section>
-            trial home
+            
         </main>
     )
 }
