@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
+
 const Body = () => {
 
     const [loading, setLoading] = useState(false);
@@ -16,8 +17,11 @@ const Body = () => {
             {
             loading ?
                 <HashLoader
+                css={`display: block;
+                margin: 0 auto;
+                border-color: red;`}
                 size={150}
-                color={"#123abc"}
+                color={"#000000"}
                 loading={loading}
                 />
 
