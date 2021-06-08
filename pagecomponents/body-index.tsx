@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import RiseLoader from "react-spinners/RiseLoader";
-import styles from '../styles/navbar.module.scss';
+import styles from '../styles/bodysec.module.scss';
 import BannerSection from './bannersec';
 
 const Body = () => {
@@ -10,11 +10,11 @@ const Body = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    },2000);
+    },);
   }, []);
 
   return (
-    <main className={styles.loader}>
+    <main>
       {loading ? (
         <RiseLoader
           css={`
@@ -30,7 +30,7 @@ const Body = () => {
           loading={loading}
         />
       ) : (
-        <div>
+        <div className={styles.elements}>
             <h1><BannerSection /></h1>
         </div>
       )}

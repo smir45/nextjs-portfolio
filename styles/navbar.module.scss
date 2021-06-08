@@ -119,3 +119,22 @@ $text-hover-transition: all .5s ease;
 .links4:hover{
   color: $text-hover;
 }
+
+.social{
+  margin: 25px 0;
+  list-style: none;
+  font-size: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.links5{
+  margin: 25px 0 0 0;
+  float: left;
+  text-decoration: none;
+}
+.links5:hover{
+  color: $text-hover-transition;
+}
