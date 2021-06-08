@@ -26,6 +26,7 @@ $text-hover-transition: all .5s ease;
   font-weight: 300;
   animation: dropIn 1s ease forwards;
   animation-delay: calc(var(--order) * 100ms);
+  overflow: hidden;
 }
 .bucket {
   display: flex;
@@ -71,6 +72,7 @@ $text-hover-transition: all .5s ease;
   animation-delay: calc(var(--order) * 200ms);
   transition: $text-hover-transition;
 }
+
 
 @keyframes dropIn {
   from {

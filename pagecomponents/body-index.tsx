@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import HashLoader from "react-spinners/HashLoader";
+import PropagateLoader from "react-spinners/PropagateLoader";
+import styles from '../styles/navbar.module.scss';
 
 const Body = () => {
   const [loading, setLoading] = useState(false);
@@ -12,13 +13,19 @@ const Body = () => {
   }, []);
 
   return (
-    <main>
+    <main className={styles.loader}>
       {loading ? (
-        <HashLoader
+        <PropagateLoader
           css={`
-            display: flex;
-            justify-content: center;
-            align-items: center;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-left: auto;
+             margin-right: auto;
+             border: 2px solid red;
+             width: fit-content;
+             height: 100vh;
+            
           `}
           size={150}
           color={"#000000"}
