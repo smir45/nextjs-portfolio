@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import RiseLoader from "react-spinners/RiseLoader";
 import styles from '../styles/navbar.module.scss';
+import BannerSection from './bannersec';
 
 const Body = () => {
   const [loading, setLoading] = useState(false);
@@ -30,7 +31,7 @@ const Body = () => {
         />
       ) : (
         <div>
-            <h1>body</h1>
+            <h1><BannerSection /></h1>
         </div>
       )}
     </main>
