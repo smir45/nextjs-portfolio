@@ -1,7 +1,7 @@
 const BannerSection = () => {
     return (
         <main>
-            
+            body elements
         </main>
     )
 }
