@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import PropagateLoader from "react-spinners/PropagateLoader";
+import RiseLoader from "react-spinners/RiseLoader";
 import styles from '../styles/navbar.module.scss';
 
 const Body = () => {
@@ -15,24 +15,23 @@ const Body = () => {
   return (
     <main className={styles.loader}>
       {loading ? (
-        <PropagateLoader
+        <RiseLoader
           css={`
              display: flex;
              justify-content: center;
              align-items: center;
-             margin-left: auto;
-             margin-right: auto;
-             border: 2px solid red;
-             width: fit-content;
+             width: 92vw;
              height: 100vh;
             
           `}
-          size={150}
+          size={15}
           color={"#000000"}
           loading={loading}
         />
       ) : (
-        <div></div>
+        <div>
+            
+        </div>
       )}
     </main>
   );
