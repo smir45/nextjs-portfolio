@@ -26,6 +26,9 @@ const Home = () => {
       <section>
         <NavBar />
       </section>
+      <section>
+        
+      </section>
       
       <div className={styles.container}>
       {
