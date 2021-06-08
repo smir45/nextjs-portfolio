@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 
 const Body = () => {
-
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -12,26 +11,24 @@ const Body = () => {
     }, 8000);
   }, []);
 
-    return(
-        <main>
-            {
-            loading ?
-                <HashLoader
-                css={`display: block;
-                margin: 0 auto;
-                border-color: red;`}
-                size={150}
-                color={"#000000"}
-                loading={loading}
-                />
+  return (
+    <main>
+      {loading ? (
+        <HashLoader
+          css={`
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          `}
+          size={150}
+          color={"#000000"}
+          loading={loading}
+        />
+      ) : (
+        <div></div>
+      )}
+    </main>
+  );
+};
 
-            :
-            <div>
-
-            </div>
-            }
-        </main>
-    )
-}
-
-export default Body
+export default Body;
