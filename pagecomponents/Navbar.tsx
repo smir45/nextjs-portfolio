@@ -31,11 +31,11 @@ const NavBar = () => {
           </li>
           <div className={styles.social}>
             <li>
-              <a className={styles.links5} href=""><FaGithub /></a>
+              <a className={styles.links5} href="https://github.com/smir45"><FaGithub /></a>
               
             </li>
             <li>
-              <a className={styles.links5} href=""><FaLinkedin /></a>
+              <a className={styles.links5} href="https://www.linkedin.com/in/smir45/"><FaLinkedin /></a>
               
             </li>
           </div>
