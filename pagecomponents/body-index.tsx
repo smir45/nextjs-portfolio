@@ -9,7 +9,7 @@ const Body = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000);
+    },1000);
   }, []);
 
   return (
@@ -30,7 +30,7 @@ const Body = () => {
         />
       ) : (
         <div>
-            
+            <h1>body</h1>
         </div>
       )}
     </main>
