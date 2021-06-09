@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+$primary-color: #2a1a1f;
+$secondary-color: #453750;
+$third-color: #73648a;
+$text-color: #a393bf;
+$secondary-text-color: #73648a;
+$text-hover: #fff;
+$text-hover-transition: all 0.5s ease;
 .textSection {
   border: 1px solid #000;
   width: 52vw;
@@ -22,4 +30,20 @@
     background-repeat: no-repeat;
     background-size:contain;
 
+}
+.titletext{
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Lobster Two', cursive;
+    color: $secondary-color;
+
+}
+.paragraphTitle{
+    font-weight: 300;
+    padding: 0;
+    color: $secondary-color;
+}
+.textinner{
+    padding: 20px;
+    margin: 15px;
 }
