@@ -4,7 +4,7 @@ $third-color: #73648a;
 $text-color: #a393bf;
 $secondary-text-color: #73648a;
 $text-hover: #fff;
-$text-hover-transition: all .5s ease;
+$text-hover-transition: all 0.5s ease;
 
 .list {
   list-style: none;
@@ -73,7 +73,6 @@ $text-hover-transition: all .5s ease;
   transition: $text-hover-transition;
 }
 
-
 @keyframes dropIn {
   from {
     transform: translateX(-500px);
@@ -94,47 +93,46 @@ $text-hover-transition: all .5s ease;
   }
 }
 
-
-.img{
-    border: 1px solid #FFF;
-    height: 100px;
-    background: url("../assets//user.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px;
-    border-radius: 50%;
-    margin: 15px 15px -15px 15px;
-    animation: fadeIn 2s ease forwards;
+.img {
+  border: 1px solid #fff;
+  height: 100px;
+  background: url("../assets//user.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px 15px -15px 15px;
+  animation: fadeIn 2s ease forwards;
 }
 
-.links1:hover{
+.links1:hover {
   color: $text-hover;
 }
-.links2:hover{
+.links2:hover {
   color: $text-hover;
 }
-.links3:hover{
+.links3:hover {
   color: $text-hover;
 }
-.links4:hover{
+.links4:hover {
   color: $text-hover;
 }
 
-.social{
+.social {
   margin: 25px 0;
   list-style: none;
   font-size: 25px;
   padding: 15px;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
-.links5{
+.links5 {
   margin: 25px 0 0 0;
   float: left;
   text-decoration: none;
 }
-.links5:hover{
+.links5:hover {
   color: $text-hover-transition;
 }

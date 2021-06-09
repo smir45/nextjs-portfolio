@@ -1,7 +1,9 @@
+import styles from '../styles/bodysec.module.scss';
 const BannerSection = () => {
     return (
         <main>
-            body elements
+            <div className={styles.textSection}></div>
+            <div className={styles.svgSection}></div>
         </main>
     )
 }
