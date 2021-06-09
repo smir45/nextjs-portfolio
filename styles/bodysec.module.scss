@@ -1,8 +1,26 @@
+.textSection {
+  border: 1px solid #000;
+  width: 52vw;
+  height: 90vh;
+  margin: 0;
+}
+.elementContainer{
+    display: flex;
+}
+.svgSection {
+  border: 1px solid red;
+  width: 40vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.svgbox{
+    height: 500px;
+    width:500px;
+    background: url(../assets/pic.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
 
-
-.textSection{
-    border: 1px solid #000;
-    width: 50%;
-    height: 90vh;
-    margin: 0;
 }
