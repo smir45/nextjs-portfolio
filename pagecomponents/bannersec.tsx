@@ -16,7 +16,7 @@ const BannerSection = () => {
             Full Stack Webdeveloper / Freelancer and a Student
           </p>
           <Link href="/contact">
-            <a className={styles.links4}>Contact</a>
+            <a className={styles.contactbtn}>Contact</a>
           </Link>
         </div>
       </div>

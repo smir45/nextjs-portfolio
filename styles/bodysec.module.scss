@@ -7,10 +7,10 @@ $secondary-text-color: #73648a;
 $text-hover: #fff;
 $text-hover-transition: all 0.5s ease;
 .textSection {
-  border: 1px solid #000;
   width: 52vw;
   height: 90vh;
   margin: 0;
+  padding: 25px;
 }
 .elementContainer{
     display: flex;
@@ -45,5 +45,19 @@ $text-hover-transition: all 0.5s ease;
 }
 .textinner{
     padding: 20px;
-    margin: 15px;
+    margin: 25px;
+
+}
+.contactbtn{
+    font-weight: 300;
+    border: 1px solid;
+    padding: 15px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    transition: $text-hover-transition;
+}
+.contactbtn:hover{
+    color: #fff;
+    background: $secondary-color;
 }
