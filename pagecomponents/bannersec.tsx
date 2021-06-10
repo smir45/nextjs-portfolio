@@ -1,8 +1,10 @@
 import styles from "../styles/bodysec.module.scss";
 import Link from "next/link";
 const BannerSection = () => {
+  
   return (
     <main className={styles.elementContainer}>
+      
       <div className={styles.textSection}>
         <div className={styles.textinner}>
           <h1 className={styles.titletext}>
