@@ -15,6 +15,7 @@ const Body = () => {
 
   return (
     <main>
+      {/* loading section */}
       {loading ? (
         <RiseLoader
           css={`
