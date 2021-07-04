@@ -30,11 +30,13 @@ const Body = () => {
           color={"#000000"}
           loading={loading}
         />
+        
       ) : (
         <div className={styles.elements}>
             <h1><BannerSection /></h1>
         </div>
       )}
+      {/* loading section end */}
     </main>
   );
 };
