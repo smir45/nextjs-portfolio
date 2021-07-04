@@ -17,10 +17,6 @@ const Home = () => {
       {/* Section One */}
 
       <section>
-        <NavBar />
-      </section>
-      {/* Section Two */}
-      <section>
         <Body />
       </section>
       
